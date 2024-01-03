@@ -21,6 +21,4 @@ CTE DuplicateRemover as
 
 delete from DuplicateRemover where Rank > 1
 
-https://github.com/Uttam-Singh-5/SQL-Interview-Question-Practice/assets/144462640/4eff11b6-4a18-4a38-bd76-54b2b0b7b847
-https://github.com/Uttam-Singh-5/SQL-Interview-Question-Practice/assets/144462640/75dcf5ca-9b68-430e-afc7-a8fea4aae02e
-https://github.com/Uttam-Singh-5/SQL-Interview-Question-Practice/assets/144462640/63225ff4-82e3-44b4-aba5-7c936f1ca2d8
+
