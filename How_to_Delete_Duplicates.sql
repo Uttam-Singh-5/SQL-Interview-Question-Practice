@@ -20,3 +20,5 @@ CTE DuplicateRemover as
 (select Employee_id, first_name, last_name, RANK() OVER(Partition by first_name, last_name order by employee_id desc) as rank from DuplicateRemoveEmployee)
 
 delete from DuplicateRemover where Rank > 1
+
+![1](https://github.com/Uttam-Singh-5/SQL-Interview-Question-Practice/assets/144462640/4eff11b6-4a18-4a38-bd76-54b2b0b7b847)
