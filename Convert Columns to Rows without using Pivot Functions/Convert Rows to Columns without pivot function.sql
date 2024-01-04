@@ -11,3 +11,8 @@ from RowsToColumns
 group by employee_id
 
 
+/*Convert Rows to Columns with Pivot Function*/
+select employee_id, [salary], [bonus], [hike_percentage] from
+(select employee_id, salary_component_type, value from RowsToColumns) as Source_RowsToColumns
+PIVOT (max(value) for salary_component_type in ([salary], [bonus], [hike_percentage])) as Pivot_Table
+
