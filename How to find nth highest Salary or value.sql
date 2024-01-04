@@ -1,7 +1,7 @@
 /*
 We have used the sql server, Interview Practice database and EmployeesSalary Table
 How to find nth highest salary.
-Images for clarity and visualizing: https://prnt.sc/X4JWoSNJBBiM, https://prnt.sc/dUvI5G4n7Y6d, https://prnt.sc/ISiym62vhHES, https://prnt.sc/Ph9a38tYovBF
+Images for clarity and visualizing: [https://prnt.sc/X4JWoSNJBBiM]url(), https://prnt.sc/dUvI5G4n7Y6d, https://prnt.sc/ISiym62vhHES, https://prnt.sc/Ph9a38tYovBF
 */
 select * from EmployeesSalary;
 
